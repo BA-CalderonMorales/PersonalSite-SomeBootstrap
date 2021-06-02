@@ -1,0 +1,160 @@
+body {
+    background-color: #BDBBC1;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3.5rem; /* 562.5% = 90px */
+    margin: 50px auto 0 auto;
+    color: #1d2221;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #181613;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 15%;
+
+}
+
+p {
+    margin: 2rem 5% 5rem 5%;
+    line-height: 3rem;
+}
+
+
+/* fade in image html and css code from: 
+https://blog.hubspot.com/website/css-fade-in
+*/
+.fade-in-image {
+    animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;
+}
+
+.fade-in-div-one {
+    animation: fadeIn 12s;
+    -webkit-animation: fadeIn 12s;
+    -moz-animation: fadeIn 12s;
+    -o-animation: fadeIn 12s;
+    -ms-animation: fadeIn 12s;
+}
+
+.fade-in-div-two {
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    -moz-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+}
+
+.fade-in-div-three {
+    animation: fadeIn 18s;
+    -webkit-animation: fadeIn 18s;
+    -moz-animation: fadeIn 18s;
+    -o-animation: fadeIn 18s;
+    -ms-animation: fadeIn 18s;
+}
+
+.navbar-brand {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: xx-large;
+    padding: 1.5rem 1.5rem;
+}
+
+.title-name {
+    text-decoration: underline;
+    font-style: italic;
+    text-emphasis: bold;    
+}
+
+.img-bg-one {
+    background-image: url("../images/spaceman.gif");
+}
+
+.img-bg-two {
+    background-image: url("../images/mountain.gif");
+}
+
+.profile-pic {
+    padding: 2rem 1rem 2rem 1rem;
+    width: 50%;
+    height: auto;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+#moon-img-one {
+    height: 825px;
+    width: initial;
+    padding-bottom: 2rem;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+    -moz-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+    box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+}
+
+#moon-img-two {
+    height: 200px;
+    width: initial;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+    -moz-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+    box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+}
+
+/* fade in image html and css code from: 
+https://blog.hubspot.com/website/css-fade-in
+*/
+@keyframes fadeIn {
+    0% {opacity:0;} 
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+
