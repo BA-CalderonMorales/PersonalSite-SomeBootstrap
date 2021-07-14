@@ -3,161 +3,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Brandon's Personal Website</title>
 </head>
 <body>  
-    <section="navigation"> <!-- NavBar from BootsWatch SandStone -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background: #E7ECEF;">
+    
+    <div class="container-fluid"> <!-- The container-fluid class that will hold everything - Start -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background: #E7ECEF;"> <!-- NavBar start -->
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Welcome</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hobbies">Hobbies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bottom">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-    </section> <!-- End NavBar section -->
-
-    <section="top-bg-img"> 
-        <div class="bg-image" id="bg-img-layout"><!-- Top background image --></div>
-    </section>
-
-    <div class="container-fluid"> <!-- The container-fluid class that will hold everything - Start -->  
-        <section="introduction"> <!-- Introduction start -->
-            <div class="container-fluid">
-                <h1 class="position-absolute top-50 start-50" id="intro">
-                    Hi. I am Brandon.<br>
-                    A <span class="accent">pro</span>grammer
-                </h1>
-            </div>
-        </section> <!-- Introduction end -->
-        
-        <section="personal-photo"> <!-- Personal photo start -->
-            <div class="container-fluid">
-                <div class="fade-in-image img-fluid">
-                    <img src="./images/personalpicgreyscale.png" class="img-thumbnail" alt="Personal Profile Photo">
+                <a class="navbar-brand" href="#">Welcome</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bottom">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav> <!-- Navbar end -->
+
+        <section id="bg-img"> <!-- Top background image -->
+            <div class="row">
+                <div class="col">
+                    <h4 class="position-absolute top-50 start-50"> <!-- Introduction start -->
+                        Hi. I am Brandon.<br>
+                        A <span class="accent">pro</span>grammer
+                    </h4>  <!-- Introduction end -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="profile-img"> <!-- Personal photo start -->
+            <div id="about-me"></div>
         </section> <!-- Personal photo end -->
 
-        <hr>
-
-        <section="about-me"> <!-- About me section start -->
-            <div class="fade-in-div-one">
-                <div class="row">
-                    <div class="col">
-                        <h2>About Me</h2>
-                        <p id="about-me">
-                            I've acquired a fundamental understanding of the following languages: HTML5/CSS3, JavaScript, Python, SQL, and Java. 
-                            I've become well acquainted with GitHub and Git and how they work together to push projects/clone repositories. 
-                            Whenever I have a problem, I understand how to navigate the Internet to look up specific answers to complex questions. 
-                        </p>
-                        <p>
-                            As far as what languages I've yet to learn, well, C# is on my agenda. I know how to navigate around Eclipse, PyCharm,
-                            MySQL, Django, and Postman. I'm currently finding out how to create beautiful web apps with React.js in conjunction with 
-                            Django REST Frameworks and MySQL databases. A few of my preferred editors are: Notepad++, Atom, and VS Code. In the 
-                            past, I've dabbled a bit with an old programming language called PERL. Although PERL is outdated, it helped me understand 
-                            the building blocks of what HTML5/CSS3 websites use to be made.
-                        </p>
-                    </div>
-                </div>
+        <div class="row p-5"> <!-- Separator start -->
+            <div class="col-4"></div>
+            <div class="col-4 text-center">
+                <hr>
             </div>
-        </section> <!-- About me section end -->
+            <div class="col-4"></div>
+        </div>  <!-- Separator start -->
 
-        <hr>
-
-        <section="hobbies"> <!-- Hobbies section start -->
-            <div class="fade-in-div-two">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-3">
-                        <h2>Hobbies</h2>
-                    </div>
-                    <div class="col-3">
-                        <p style="text-decoration: none; font-size: larger">A few hobbies of mine include...</p>
-                    </div>
-                    <div class="col-6" id="hobbies">
-                        <ul class="list-group-flush">                            
-                            <li class="list-group-item">Walking/Jogging/Running</li>
-                            <li class="list-group-item">Hiking</li>
-                            <li class="list-group-item">Spending Time With Family</li>
-                            <li class="list-group-item">Working out at the gym</li>
-                            <li class="list-group-item">Playing any sport</li>
-                            <li class="list-group-item">Getting my butt kicked at <a href="https://krunker.io">Krunker.io</a></li>
-                            <li class="list-group-item">The list can go on for a bit!</li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="row fade-in-div-one"> <!-- About me section start -->
+            <div class="col"> 
+                <h2>About Me</h2>
+                <p>
+                    I've acquired a fundamental understanding of the following languages: HTML5/CSS3, JavaScript, Python, SQL, and Java. 
+                    I've become well acquainted with GitHub and Git and how they work together to push projects/clone repositories. 
+                    Whenever I have a problem, I understand how to navigate the Internet to look up specific answers to complex questions. 
+                </p>
+                <p>
+                    As far as what languages I've yet to learn, well, C# is on my agenda. I know how to navigate around Eclipse, PyCharm,
+                    MySQL, Django, and Postman. I'm currently finding out how to create beautiful web apps with React.js in conjunction with 
+                    Django REST Frameworks and MySQL databases. A few of my preferred editors are: Notepad++, Atom, and VS Code. In the 
+                    past, I've dabbled a bit with an old programming language called PERL. Although PERL is outdated, it helped me understand 
+                    the building blocks of what HTML5/CSS3 websites use to be made.
+                </p>
             </div>
-        </section> <!-- Hobbies section end -->
+        </div> <!-- About me section end -->
 
-        <hr>
-
-        <section="projects"> <!-- Projects section start -->
-            <div class="fade-in-div-three">
-                <div class="row">
-                    <div class="col">
-                        <h2>Projects</h2>
-                        <p id="link3">
-                            I like to keep my projects in a place where the whole world can see them (including others like me). 
-                            This place is called GitHub. To view all my projects, go ahead and use the slideshow below to see a 
-                            brief description of what each project entails. Once you're done reading the project description, 
-                            the images themselves are links to the repository I have my project stored in. I'm actively 
-                            adding more to my GitHub as time goes by. My goal is to build a big enough library of repositories to 
-                            have templates for any situation that may arise. Enjoy! 😁
-                        </p>
-                    </div>
-                </div>
+        <div class="row p-5"> <!-- Separator start -->
+            <div class="col-4"></div>
+            <div class="col-4 text-center">
+                <hr>
             </div>
-        </section> <!-- Projects section end -->
+            <div class="col-4"></div>
+        </div>  <!-- Separator start -->
 
-        <hr>
+        <section id="bg-img"> <!-- Image under about me section --> </section>
 
-        <h4> <!-- Outro salutation start -->
-            Thanks for stopping by! Feel free to reach out to me whenever. I'll try to respond as quickly as I can.
-        </h4> <!-- Outro salutation end -->
+        <div class="row p-5"> <!-- Separator start -->
+            <div class="col-4"></div>
+            <div class="col-4 text-center" id="hobbies">
+                <hr>
+            </div>
+            <div class="col-4"></div>
+        </div>  <!-- Separator start -->
 
-        <section="contact-info"> <!-- Contact info start -->
-            <div class="container-fluid" style="padding-top: 2rem;"> <!-- Reach out / extra info start -->
-                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                    <a href="https://github.com/BA-CalderonMorales"><button type="button" class="btn btn-dark btn-lg">
-                        GitHub
-                    </button></a>
-                    <a href=""><button type="button" class="btn btn-dark btn-lg" id="bottom">
-                        Home
-                    </button></a>
-                    <a href="https://twitter.com/BrandonACalder1"><button type="button" class="btn btn-dark btn-lg">
-                        Twitter
-                    </button></a>
-                </div>
-            </div> <!-- Reach out / extra info end -->
-        </section> <!-- Contact info end -->
+        <div class="row justify-content-center align-items-center fade-in-div-two"> <!-- Hobbies section start -->
+            <div class="col">
+                <h2>Hobbies</h2>
+            </div>
+            <div class="col">
+                <p style="text-decoration: none; font-size: larger">A few hobbies of mine include...</p>
+            </div>
+            <div class="col">
+                <ul class="list-group-flush">                            
+                    <li class="list-group-item">Walking/Jogging/Running</li>
+                    <li class="list-group-item">Hiking</li>
+                    <li class="list-group-item">Spending Time With Family</li>
+                    <li class="list-group-item">Working out at the gym</li>
+                    <li class="list-group-item">Playing any sport</li>
+                    <li class="list-group-item">Getting my butt kicked at <a href="https://krunker.io">Krunker.io</a></li>
+                    <li class="list-group-item">The list can go on for a bit!</li>
+                </ul>
+            </div>
+        </div> <!-- Hobbies section end -->
+
+        <div class="row p-5"> <!-- Separator start -->
+            <div class="col-4"></div>
+            <div class="col-4 text-center">
+                <hr>
+            </div>
+            <div class="col-4"></div>
+        </div>  <!-- Separator start -->
+
+        <section id="bg-img"> <!-- Image under hobbies section --> </section>
+
+        <div class="row p-5" id="projects"> <!-- Separator start -->
+            <div class="col-4"></div>
+            <div class="col-4 text-center">
+                <hr>
+            </div>
+            <div class="col-4"></div>
+        </div>  <!-- Separator start -->
+
+        <div class="row fade-in-div-three"> <!-- Projects section start -->
+            <div class="col">
+                <h2>Projects</h2>
+                <p>
+                    I like to keep my projects in a place where the whole world can see them (including others like me). 
+                    This place is called GitHub. To view all my projects, go ahead and use the slideshow below to see a 
+                    brief description of what each project entails. Once you're done reading the project description, 
+                    the images themselves are links to the repository I have my project stored in. I'm actively 
+                    adding more to my GitHub as time goes by. My goal is to build a big enough library of repositories to 
+                    have templates for any situation that may arise. Enjoy! 😁
+                </p>
+            </div>
+        </div> <!-- Projects section end -->
+
+        <div class="row p-5"> <!-- Separator start -->
+            <div class="col-4"></div>
+            <div class="col-4 text-center">
+                <hr>
+            </div>
+            <div class="col-4"></div>
+        </div>  <!-- Separator start -->
+
+        <section id="bg-img"> <!-- Image under projects section --> </section>
+
+        <div class="row p-5"> <!-- Outro salutation start -->
+            <div class="col">
+                <h4>
+                    Thanks for stopping by! Feel free to reach out to me whenever. I'll try to respond as quickly as I can.
+                </h4>
+            </div>
+        </div> <!-- Outro salutation end -->
+
+        <div class="row p-2"> <!-- Contact info start -->
+            <div class="col">
+                <div class="container-fluid">
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example"> <!-- Reach out / extra info start -->
+                        <a href="https://github.com/BA-CalderonMorales"><button type="button" class="btn btn-secondary btn-lg">
+                            GitHub
+                        </button></a>
+                        <a href=""><button type="button" class="btn btn-dark btn-lg" id="bottom">
+                            Home
+                        </button></a>
+                        <a href="https://twitter.com/BrandonACalder1"><button type="button" class="btn btn-secondary btn-lg">
+                            Twitter
+                        </button></a>
+                    </div> <!-- Reach out / extra info end -->
+                </div> 
+            </div>
+        </div> <!-- Contact info end --> 
 
     </div> <!-- The container-fluid class that will hold everything - End -->
-    
-    <section="bottom-bg-img">
-        <div id="bg-img-layout" style="background-image: url('');"><!-- Bottom background Image--> </div>
-    </section> 
 
     <!-- Bootstrap 5 JavaScript path for functionality -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

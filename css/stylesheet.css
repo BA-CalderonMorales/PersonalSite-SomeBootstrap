@@ -33,12 +33,12 @@ p {
     font-family: 'Concert One', cursive;
     margin: 2rem 5% 5rem 5%;
     line-height: 2.5rem;
-    font-size: larger;
+    font-size: x-large;
 }
 
 li {
     font-family: 'Concert One', cursive;
-    font-size: larger;
+    font-size: x-large;
     text-decoration: underline;
 }
 
@@ -46,6 +46,9 @@ a {
     font-family: 'Concert One', cursive;
 }
 
+.container-fluid {
+    text-align: center;
+}
 
 /* fade in image html and css code from: 
 https://blog.hubspot.com/website/css-fade-in
@@ -112,22 +115,48 @@ https://blog.hubspot.com/website/css-fade-in
     border-radius: 0
 }
 
-.container-fluid {
-    text-align: center;
-}
-
-#bg-img-layout {
+#bg-img {
     background-image: url('../images/background-one.jpg');
-    height: 125vh;
+    width:100%;
+    height:720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
-/* Height for devices larger than 576px */
-@media (min-width: 992px) {
-    #bg-img-layout {
-        margin-top: -58.59px;
+/* Height for devices larger than 922px */
+@media (max-width: 922px) {
+    #bg-img {
+        margin-top: 20px;
     }
 }
 
+/* Height for devices larger than 576px */
+@media (max-width: 576px) {
+    #bg-img {
+        margin-top: 40px;
+    }
+}
+
+/* Height for devices larger than 375px */
+@media (max-width: 375px) {
+    #bg-img {
+        margin-top: 80px;
+    }
+}
+
+#profile-img {
+    background-image: url('../images/personalpicgreyscale.png');
+    height:450px;
+    width:100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
 
 /* fade in image html and css code from: 
 https://blog.hubspot.com/website/css-fade-in
