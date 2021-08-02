@@ -8,185 +8,168 @@
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <title>Brandon's Personal Website</title>
+    <title>Brandon's Portfolio Website</title>
 </head>
 <body>  
-    
     <div class="container-fluid"> <!-- The container-fluid class that will hold everything - Start -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background: #E7ECEF;"> <!-- NavBar start -->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Welcome</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" 
-                aria-label="Toggle navigation">
+
+        <section id="navigation-section"> <!-- Navigation section end -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navigation">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">Welcome</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarColor01">
-                    <ul class="navbar-nav ms-auto">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-me">About Me</a>
+                        <a class="nav-link active" href="#">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        <a class="nav-link" href="#">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#bottom">Contact</a>
+                        <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
+                    </div>
                 </div>
-            </div>
-        </nav> <!-- Navbar end -->
+            </nav> 
+        </section> <!-- Navigation section end -->
 
-        <section id="bg-img"> <!-- Top background image -->
+        <section id="greetings-section"> <!-- Greetings section -->
             <div class="row">
-                <div class="col">
-                    <h4 class="position-absolute top-50 start-50"> <!-- Introduction start -->
-                        Hi. I am Brandon.<br>
-                        A <span class="accent">pro</span>grammer
-                    </h4>  <!-- Introduction end -->
+                <div class="col d-flex justify-content-center">
+                    <h1 class="display-1 greeting-content" id="bit-header">Hello.</h1>
+                </div>
+            </div> 
+            <div class="row"> 
+                <div class="col d-flex justify-content-center">
+                    <p class="display-6 greeting-content" id="introduction">My name is Brandon. I'm a junior software engineer.</p>
+                </div>
+            </div> 
+        </section> <!-- Greeting section end -->
+
+        <section id="separator-section"> <!-- Separator start -->
+            <div class="row"> 
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <hr>
+                </div>
+                <div class="col-3"></div>
+            </div>  
+        </section> <!-- Separator end -->
+
+        <section id="about-section"> <!-- About me section start -->
+            <div class="row" id="space_around_content"> 
+                <div class="col d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center display-4" id="left-curve-box"> 
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center" id="right-curve-box">    
+                            <p class="lead text-muted" id="paragraph">Coder, family man, gamer, and investor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section> <!-- About me section end -->
+        
+        <section id="separator-section"> <!-- Separator start -->
+            <div class="row"> 
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <hr>
+                </div>
+                <div class="col-3"></div>
+            </div>  
+        </section> <!-- Separator end -->
+        
+        <section id="projects-section"> <!-- Projects section start -->
+            <div class="row" id="space_around_content"> 
+                <div class="col d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center display-4" id="left-curve-box"> 
+                            <p class="lead" id="paragraph">Here are some of my projects!</p>
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <p>Try scrolling the rest of the page to see this option in action.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center" id="right-curve-box">    
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section> <!-- Projects section end -->
+        
+        <section id="separator-section"> <!-- Separator start -->
+            <div class="row"> 
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <hr>
+                </div>
+                <div class="col-3"></div>
+            </div>  
+        </section> <!-- Separator end -->
+
+        <section id="cta-section"> <!-- CTA/Footer section start -->
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="row" id="cta"> <!-- CTA div start-->
+                        <div class="col d-flex justify-content-center align-items-center">    
+                            <p class="lead">Connect with me on LinkedIn!</p>
+                            <p class="lead"></p>
+                        </div>
+                    </div> <!-- CTA div end -->
                 </div>
             </div>
         </section>
-        
-        <section id="profile-img"> <!-- Personal photo start -->
-            <div id="about-me"></div>
-        </section> <!-- Personal photo end -->
 
-        <div class="row p-5"> <!-- Separator start -->
-            <div class="col-4"></div>
-            <div class="col-4 text-center">
-                <hr>
+        <section id="separator-section"> <!-- Separator start -->
+            <div class="row"> 
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <hr>
+                </div>
+                <div class="col-3"></div>
+            </div>  
+        </section> <!-- Separator end -->
+
+        <section id="footer-section">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="row"> <!-- Footer div start --> 
+                        <div class="col d-flex justify-content-center">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/BA-CalderonMorales">Github</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="/">Home</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://twitter.com/BrandonACalder1">Twitter</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- Footer div end -->
+                </div>
             </div>
-            <div class="col-4"></div>
-        </div>  <!-- Separator start -->
-
-        <div class="row fade-in-div-one"> <!-- About me section start -->
-            <div class="col"> 
-                <h2>About Me</h2>
-                <p>
-                    I've acquired a fundamental understanding of the following languages: HTML5/CSS3, JavaScript, Python, SQL, and Java. 
-                    I've become well acquainted with GitHub and Git and how they work together to push projects/clone repositories. 
-                    Whenever I have a problem, I understand how to navigate the Internet to look up specific answers to complex questions. 
-                </p>
-                <p>
-                    As far as what languages I've yet to learn, well, C# is on my agenda. I know how to navigate around Eclipse, PyCharm,
-                    MySQL, Django, and Postman. I'm currently finding out how to create beautiful web apps with React.js in conjunction with 
-                    Django REST Frameworks and MySQL databases. A few of my preferred editors are: Notepad++, Atom, and VS Code. In the 
-                    past, I've dabbled a bit with an old programming language called PERL. Although PERL is outdated, it helped me understand 
-                    the building blocks of what HTML5/CSS3 websites use to be made.
-                </p>
-            </div>
-        </div> <!-- About me section end -->
-
-        <div class="row p-5"> <!-- Separator start -->
-            <div class="col-4"></div>
-            <div class="col-4 text-center">
-                <hr>
-            </div>
-            <div class="col-4"></div>
-        </div>  <!-- Separator start -->
-
-        <section id="bg-img"> <!-- Image under about me section --> </section>
-
-        <div class="row p-5"> <!-- Separator start -->
-            <div class="col-4"></div>
-            <div class="col-4 text-center" id="hobbies">
-                <hr>
-            </div>
-            <div class="col-4"></div>
-        </div>  <!-- Separator start -->
-
-        <div class="row justify-content-center align-items-center fade-in-div-two"> <!-- Hobbies section start -->
-            <div class="col">
-                <h2>Hobbies</h2>
-            </div>
-            <div class="col">
-                <p style="text-decoration: none; font-size: larger">A few hobbies of mine include...</p>
-            </div>
-            <div class="col">
-                <ul class="list-group-flush">                            
-                    <li class="list-group-item">Walking/Jogging/Running</li>
-                    <li class="list-group-item">Hiking</li>
-                    <li class="list-group-item">Spending Time With Family</li>
-                    <li class="list-group-item">Working out at the gym</li>
-                    <li class="list-group-item">Playing any sport</li>
-                    <li class="list-group-item">Getting my butt kicked at <a href="https://krunker.io">Krunker.io</a></li>
-                    <li class="list-group-item">The list can go on for a bit!</li>
-                </ul>
-            </div>
-        </div> <!-- Hobbies section end -->
-
-        <div class="row p-5"> <!-- Separator start -->
-            <div class="col-4"></div>
-            <div class="col-4 text-center">
-                <hr>
-            </div>
-            <div class="col-4"></div>
-        </div>  <!-- Separator start -->
-
-        <section id="bg-img"> <!-- Image under hobbies section --> </section>
-
-        <div class="row p-5" id="projects"> <!-- Separator start -->
-            <div class="col-4"></div>
-            <div class="col-4 text-center">
-                <hr>
-            </div>
-            <div class="col-4"></div>
-        </div>  <!-- Separator start -->
-
-        <div class="row fade-in-div-three"> <!-- Projects section start -->
-            <div class="col">
-                <h2>Projects</h2>
-                <p>
-                    I like to keep my projects in a place where the whole world can see them (including others like me). 
-                    This place is called GitHub. To view all my projects, go ahead and use the slideshow below to see a 
-                    brief description of what each project entails. Once you're done reading the project description, 
-                    the images themselves are links to the repository I have my project stored in. I'm actively 
-                    adding more to my GitHub as time goes by. My goal is to build a big enough library of repositories to 
-                    have templates for any situation that may arise. Enjoy! 😁
-                </p>
-            </div>
-        </div> <!-- Projects section end -->
-
-        <div class="row p-5"> <!-- Separator start -->
-            <div class="col-4"></div>
-            <div class="col-4 text-center">
-                <hr>
-            </div>
-            <div class="col-4"></div>
-        </div>  <!-- Separator start -->
-
-        <section id="bg-img"> <!-- Image under projects section --> </section>
-
-        <div class="row p-5"> <!-- Outro salutation start -->
-            <div class="col">
-                <h4>
-                    Thanks for stopping by! Feel free to reach out to me whenever. I'll try to respond as quickly as I can.
-                </h4>
-            </div>
-        </div> <!-- Outro salutation end -->
-
-        <div class="row p-2"> <!-- Contact info start -->
-            <div class="col">
-                <div class="container-fluid">
-                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example"> <!-- Reach out / extra info start -->
-                        <a href="https://github.com/BA-CalderonMorales"><button type="button" class="btn btn-secondary btn-lg">
-                            GitHub
-                        </button></a>
-                        <a href=""><button type="button" class="btn btn-dark btn-lg" id="bottom">
-                            Home
-                        </button></a>
-                        <a href="https://twitter.com/BrandonACalder1"><button type="button" class="btn btn-secondary btn-lg">
-                            Twitter
-                        </button></a>
-                    </div> <!-- Reach out / extra info end -->
-                </div> 
-            </div>
-        </div> <!-- Contact info end --> 
-
+        </section> <!-- CTA/Footer section end -->
+            
+         
     </div> <!-- The container-fluid class that will hold everything - End -->
 
     <!-- Bootstrap 5 JavaScript path for functionality -->
