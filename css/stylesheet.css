@@ -152,6 +152,12 @@ body {
     background-color: #F05454;
 }
 
+/* Modal content */
+
+.modal-body {
+    color: #222831;
+}
+
 /* CTA section */
 
 #cta-section {
