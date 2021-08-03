@@ -1,5 +1,15 @@
+/*
+
+Color Scheme: 
+#DDDDDD - Smoky Grey
+#222831 - Navy Blue
+#30475E - Dark Blue
+#F05454 - Red Orange
+
+*/
+
 body {
-    background-color: #EAEAEA;
+    background-color: #DDDDDD;
     font-family: 'Concert One', cursive;
     font-size: 20px;
 }
@@ -40,26 +50,26 @@ main {
     padding-top: 15rem;
 }
 
-#left-curve-box {
-    background-color: #303841;
+#left-box {
+    background-color: #30475E;
     color: #EAEAEA;
     padding: 6rem;
     text-align: center;
 }
 
-#right-curve-box {
-    background-color: #303841;
+#right-box {
+    background-color: #30475E;
     color: #EAEAEA;
     padding: 2rem;
     text-align: center;
 }
 
 @media (max-width: 495px) {
-    #left-curve-box {
+    #left-box {
         margin-left: 12px;
         margin-right: 12px;
     }
-    #right-curve-box {
+    #right-box {
         margin-right: 12px;
         margin-left: 12px;
         padding: 4rem;
@@ -75,7 +85,7 @@ main {
 }
 
 #navigation {
-    background-color: #205088;;
+    background-color: #F05454;
     padding: 2rem;
     margin: 5px 10px 10px 5px;   
 }
@@ -103,7 +113,7 @@ main {
 /* Separator section */
 
 #separator-section {
-    background-color: #205088;
+    background-color: #F05454;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -148,7 +158,8 @@ main {
 
 #footer-link {
     text-decoration: none;
-    color: #252A34;
+    color: #222831;
+    padding: .5rem;
 }
 
 /* 

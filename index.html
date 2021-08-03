@@ -20,7 +20,7 @@
 </head>
 <body>  
     <div class="container-fluid"> <!-- The container-fluid class that will hold everything - Start -->
-        <main>
+        <main id="top">
             <section id="navigation-section"> <!-- Navigation section end -->
                 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navigation">
                     <div class="container-fluid">
@@ -80,10 +80,10 @@
                 <div class="row" id="space_around_content"> 
                     <div class="col d-flex justify-content-center">
                         <div class="row">
-                            <div class="col d-flex justify-content-center align-items-center display-4" id="left-curve-box"> 
+                            <div class="col d-flex justify-content-center align-items-center display-4" id="left-box"> 
                                 <h2>About Me</h2>
                             </div>
-                            <div class="col d-flex justify-content-center align-items-center" id="right-curve-box">    
+                            <div class="col d-flex justify-content-center align-items-center" id="right-box">    
                                 <p class="lead text-muted" id="paragraph">Coder, family man, gamer, and investor.</p>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                 <div class="row" id="space_around_content"> 
                     <div class="col d-flex justify-content-center">
                         <div class="row">
-                            <div class="col d-flex justify-content-center align-items-center display-4" id="left-curve-box"> 
+                            <div class="col d-flex justify-content-center align-items-center display-4" id="left-box"> 
                                 <p class="lead" id="paragraph">Here are some of my projects!</p>
                                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                                     <div class="offcanvas-header">
@@ -117,7 +117,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col d-flex justify-content-center align-items-center" id="right-curve-box">    
+                            <div class="col d-flex justify-content-center align-items-center" id="right-box">    
                                 <h2>Projects</h2>
                             </div>
                         </div>
@@ -166,15 +166,9 @@
                         <div class="row"> <!-- Footer div start --> 
                             <div class="col d-flex justify-content-center">
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-outline-primary btn-lg">
-                                        <a id="footer-link" href="https://github.com/BA-CalderonMorales"><i class="fab fa-github fa-2x"></i></a>
-                                    </button>
-                                    <button type="button" class="btn btn-outline-primary btn-lg">
-                                        <a id="footer-link" href="./index.html"><i class="fas fa-home fa-2x"></i></a>
-                                    </button>
-                                    <button type="button" class="btn btn-outline-primary btn-lg">
-                                        <a id="footer-link" href="https://twitter.com/BrandonACalder1"><i class="fab fa-twitter fa-2x"></i></a>
-                                    </button>
+                                    <a role="button" id="footer-link" href="https://github.com/BA-CalderonMorales"><i class="fab fa-github fa-2x"></i></a>
+                                    <a role="button" id="footer-link" href="./index.html"><i class="fas fa-home fa-2x"></i></a>
+                                    <a role="button" id="footer-link" href="https://twitter.com/BrandonACalder1"><i class="fab fa-twitter fa-2x"></i></a>
                                 </div>
                             </div>
                         </div> <!-- Footer div end -->
