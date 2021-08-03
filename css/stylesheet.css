@@ -32,6 +32,7 @@ body {
     -webkit-overflow-scrolling: touch;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 /* Content inside of About Me and Project sections */
@@ -77,15 +78,26 @@ body {
 #navigation {
     background-color: #F05454;
     padding: 2rem;
-    margin: 5px 10px 10px 5px;   
+    margin: 5px 10px 5px 10px;   
+    border-radius: 0 0 8rem 8rem;
+}
+
+#navigation-burger {
+    color: white;
 }
 
 #site-title {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration: none;
+    color: navajowhite;
 }
 
 #nav-links {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration: none;
+    color: navajowhite;
 }
 
 /* Greetings section */
@@ -132,6 +144,14 @@ body {
     padding-bottom: 10rem;
 }
 
+#offcanvas-top {
+    background-color: #30475E;
+}
+
+#offcanvas-bottom {
+    background-color: #F05454;
+}
+
 /* CTA section */
 
 #cta-section {
@@ -160,6 +180,7 @@ body {
     color: #222831;
     padding: .5rem;
 }
+
 
 /* 
 About Me
