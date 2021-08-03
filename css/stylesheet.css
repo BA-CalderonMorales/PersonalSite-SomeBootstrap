@@ -8,41 +8,31 @@ Color Scheme:
 
 */
 
+html {
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
 body {
     background-color: #DDDDDD;
-    font-family: 'Concert One', cursive;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 20px;
 }
 
-main {
+.main {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
     -webkit-overflow-scrolling: touch;
-}
-
-
-/* #vertical-snap {
-    margin: 0 auto;
-    display: grid;
-    grid-auto-flow: row;
-    gap: 1rem;
-    width: calc(900px + 2rem);
-    padding: 1rem;
-    overflow-y: auto;
-    overscroll-behavior-y: contain;
-    scroll-snap-type: y mandatory;
-}
-
-#vertical-snap > section {
-    scroll-snap-align: center;
-}
-
-#vertical-snap #greetings-section {
-    object-fit: contain;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     border-radius: 1rem;
-} */
+}
 
 /* Content inside of About Me and Project sections */
 
@@ -90,12 +80,21 @@ main {
     margin: 5px 10px 10px 5px;   
 }
 
+#site-title {
+    font-size: 1.75rem;
+}
+
+#nav-links {
+    font-size: 1rem;
+}
+
 /* Greetings section */
 
 #greetings-section {
     scroll-snap-align: start;
     background-color: #EAEAEA;
     padding-bottom: 10rem;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .greeting-content {
