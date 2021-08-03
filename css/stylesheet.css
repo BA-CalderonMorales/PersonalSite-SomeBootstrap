@@ -96,6 +96,11 @@ body {
     padding-bottom: 2rem;
 }
 
+#footer-link {
+    text-decoration: none;
+    color: #252A34;
+}
+
 /* 
 About Me
 
