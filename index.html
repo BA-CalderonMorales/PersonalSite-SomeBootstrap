@@ -64,7 +64,7 @@
                                         <a class="nav-link"  id="nav-links" href="#projects-section">Projects</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link"  id="nav-links" href="#footer-section">Contact</a>
+                                        <a class="nav-link"  id="nav-links" href="#cta-section">Contact</a>
                                       </li>
                                     </ul>
                                     <!-- Left links -->
@@ -146,41 +146,88 @@
                                                   <div class="modal-content">
                                                     <div class="modal-header">
                                                       <h5 class="modal-title" id="exampleModalLabel">Projects</h5>
-                                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      <button type="button" class="btn-close btn-dark" id="close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
                                                     </div>
-                                                    <div class="modal-body">
-                                                      <div class="row"> <!-- Project: Music Library -->
-                                                          <div class="col-12">
-                                                            <div class="row">
-                                                                <div class="col d-flex align-items-center">
-                                                                    <div class="text-muted">
-                                                                        Music Library
+                                                    <div class="modal-body" id="project-modal">
+                                                        <div class="row"> <!-- Project: Music Library -->
+                                                            <div class="col-12 p-3" id="modal-section">
+                                                                <div class="row">
+                                                                    <div class="col d-flex align-items-center">
+                                                                        <div class="text-muted">
+                                                                            Music Library
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="lead" id="projects-context">
+                                                                            Uses React.js for frontend and Django REST Framework 
+                                                                            for backend. In this project, I learned how to create
+                                                                            a CRUD app that can allow a user to create, read, 
+                                                                            update, and delete songs from a MySQL database.
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col">
-                                                                    <div class="lead">
-                                                                        Uses React.js for frontend and Django REST Framework 
-                                                                        for backend. In this project, I learned how to create
-                                                                        a CRUD app that can allow a user to create, read, 
-                                                                        update, and delete songs from a MySQL database.
+                                                            </div>
+                                                            <hr/>
+                                                            <div class="col-12 p-3" id="modal-section">
+                                                                <div class="row">
+                                                                    <div class="col d-flex align-items-center">
+                                                                        <div class="text-muted">
+                                                                            YouTube Clone
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="lead" id="projects-context">
+                                                                            In this project, I had to create a clone of YouTube. 
+                                                                            It was a bit difficult having to work with limited API
+                                                                            calls (YouTube V3), but we (my partner and me that 
+                                                                            worked on this) made it through. It was a great 
+                                                                            experience, and I'll forever remember to stay away 
+                                                                            from infinite loops!
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                          </div>
-                                                        </div>
-                                                        <div class="row"> <!-- Project: YouTube Clone -->
-                                                            <div class="col-12">
-
+                                                            <hr/>
+                                                            <div class="col-12 p-3" id="modal-section">
+                                                                <div class="row">
+                                                                    <div class="col d-flex align-items-center">
+                                                                        <div class="text-muted">
+                                                                            Robots vs. Dinosaurs
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="lead" id="projects-context">
+                                                                            In this project, I was able to create a console 
+                                                                            app game inside of PyCharm. The game is based off 
+                                                                            of a show called <span style="font-style: italic;">
+                                                                            The Big Bang Theory. </span> Here's a link to 
+                                                                            the episode this aired on, too: 
+                                                                            <a href="https://youtu.be/x5Q6-wMx-K8">RPSLS</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="row"> <!-- Project: Robots vs. Dinosaurs -->
-                                                            <div class="col-12">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="row"> <!-- Project: Trash Collector -->
-                                                            <div class="col-12">
-
+                                                            <hr/>
+                                                            <div class="col-12 p-3" id="modal-section">
+                                                                <div class="row">
+                                                                    <div class="col d-flex align-items-center">
+                                                                        <div class="text-muted">
+                                                                            Study Buddy
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <div class="lead" id="projects-context">
+                                                                            This was another paired project that I worked
+                                                                            on where I was able to create a Flashcard app 
+                                                                            called Study Buddy. It was amazing to see how 
+                                                                            useState and useEffect work together to produce 
+                                                                            powerful, yet simple web applications. In creating
+                                                                            this project, we used React.js (hooks approach frontend), 
+                                                                            Django REST Framework (for backend), and a ton of
+                                                                            elbow grease!
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -154,8 +154,29 @@ body {
 
 /* Modal content */
 
+#close-btn {
+    font-size: 15px;
+}
+
+.modal-title {
+    color: #222831;
+}
+
 .modal-body {
     color: #222831;
+}
+
+#projects-context {
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+#project-modal {
+    scroll-snap-type: y mandatory;
+}
+
+#modal-section {
+    scroll-snap-align: center;
 }
 
 /* CTA section */
