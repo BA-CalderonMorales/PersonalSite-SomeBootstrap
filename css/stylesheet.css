@@ -136,6 +136,10 @@ body {
     padding-bottom: 10rem;
 }
 
+#paragraph {
+    color: white;
+}
+
 /* Projects section */
 
 #projects-section {
