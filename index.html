@@ -29,8 +29,8 @@
 <body>  
     <div class="container-fluid"> <!-- The container-fluid class that will hold everything - Start -->
         <div class="row">
-            <div class="col col-md-3 col-lg-2"></div>
-            <div class="col col-sm-12 col-md-6 col-lg-8 d-flex-justify-content-center">
+            <div class="col-sm-3 col-md-2 col-lg-2"></div>
+            <div class="col col-xs-12 col-sm-6 col-md-8 col-lg-8 d-flex-justify-content-center">
                     <div class="main">
                         <section id="navigation-section"> <!-- Navigation section end -->
                             <nav class="navbar fixed-top navbar-expand-lg " id="navigation">
@@ -102,16 +102,25 @@
                         </section> <!-- Separator end -->
             
                         <section id="about-section"> <!-- About me section start -->
-                            <div class="row" id="space_around_content"> 
-                                <div class="col d-flex justify-content-center">
-                                    <div class="row">
-                                        <div class="col d-flex justify-content-center align-items-center display-4" id="left-box"> 
-                                            <h2>About Me</h2>
-                                        </div>
-                                        <div class="col d-flex justify-content-center align-items-center" id="right-box">    
-                                            <p class="lead" id="paragraph">Coder, family man, gamer, and investor.</p>
-                                        </div>
-                                    </div>
+                            <div class="row p-4">
+                                <div class="col d-flex justify-content-center align-items-center">
+                                    <div class="display-3">About Me</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center align-items-center">    
+                                    <p class="lead">I'm a husband, father, veteran, and gamer. 
+                                        I enjoy coding in Java, Python, JavaScript, and C#. I'm currently 
+                                        pursuing my BS in Multidisciplinary Studies with a concentration in 
+                                        Computer Science. I've got 10 credits left before I finish.<br><br>
+                                        As of today, I have roughly 20 (and counting) repositories on GitHub where I've practiced 
+                                        creating web apps using the languages I just mentioned, along with using 
+                                        the following technologies: <br><br>
+                                        React.js (with and without hooks), <br>
+                                        Django (and Django REST Framework), <br>
+                                        Postman (to view API calls to backend servers), <br>
+                                        MySQL to view tables I created using SQL, Django REST, or ASP.Net.<br><br>
+                                    </p>
                                 </div>
                             </div> 
                         </section> <!-- About me section end -->
@@ -126,132 +135,74 @@
                             </div>  
                         </section> <!-- Separator end -->
                         
-                        <section id="projects-section"> <!-- Projects section start -->
-                            <div class="row" id="space_around_content"> 
-                                <div class="col d-flex justify-content-center">
-                                    <div class="row">
-                                        <div class="col d-flex justify-content-center align-items-center display-4" id="left-box"> 
-                                            <div class="row">
-                                                <div class="col-12 d-flex justify-content-center align-items-center">
-                                                    <p class="lead" id="paragraph">Here are some of my projects!</p>
-                                                </div>
-                                                <div class="col-12 d-flex justify-content-center align-items-center">
-                                                    <button type="button" data-mdb-ripple-unbound="true" data-mdb-ripple-color="dark" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                        <i class="far fa-hand-pointer fa-3x"></i>
-                                                    </button>                                                
-                                                </div>
-                                            </div>
-                                            <div class="modal hide" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                                  <div class="modal-content">
-                                                    <div class="modal-header">
-                                                      <h5 class="modal-title" id="exampleModalLabel">Projects</h5>
-                                                      <button type="button" class="btn-close btn-dark" id="close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body" id="project-modal">
-                                                        <div class="row"> <!-- Project: Music Library -->
-                                                            <div class="col-12 p-3" id="modal-section">
-                                                                <div class="row">
-                                                                    <div class="col d-flex align-items-center">
-                                                                        <div class="text-muted">
-                                                                            <a href="https://github.com/carter-willey/Music-Library-FrontEnd.git">
-                                                                                Music Library
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col">
-                                                                        <div class="lead" id="projects-context">
-                                                                            Uses React.js for frontend and Django REST Framework 
-                                                                            for backend. In this project, I learned how to create
-                                                                            a CRUD app that can allow a user to create, read, 
-                                                                            update, and delete songs from a MySQL database.
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <hr/>
-                                                            <div class="col-12 p-3" id="modal-section">
-                                                                <div class="row">
-                                                                    <div class="col d-flex align-items-center">
-                                                                        <div class="text-muted">
-                                                                            <a href="https://github.com/users/BA-CalderonMorales/projects/1">
-                                                                                YouTube Clone
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col">
-                                                                        <div class="lead" id="projects-context">
-                                                                            In this project, I had to create a clone of YouTube. 
-                                                                            It was a bit difficult having to work with limited API
-                                                                            calls (YouTube V3), but we (my partner and me that 
-                                                                            worked on this) made it through. It was a great 
-                                                                            experience, and I'll forever remember to stay away 
-                                                                            from infinite loops!
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <hr/>
-                                                            <div class="col-12 p-3" id="modal-section">
-                                                                <div class="row">
-                                                                    <div class="col d-flex align-items-center">
-                                                                        <div class="text-muted">
-                                                                            <a href="https://github.com/BA-CalderonMorales/repo_RobotsVsDinosaurs.git">
-                                                                                Robots vs. Dinosaurs
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col">
-                                                                        <div class="lead" id="projects-context">
-                                                                            In this project, I was able to create a console 
-                                                                            app game inside of PyCharm. The game is based off 
-                                                                            of a show called <span style="font-style: italic;">
-                                                                            The Big Bang Theory. </span> Here's a link to 
-                                                                            the episode this aired on, too: 
-                                                                            <a href="https://youtu.be/x5Q6-wMx-K8">RPSLS</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <hr/>
-                                                            <div class="col-12 p-3" id="modal-section">
-                                                                <div class="row">
-                                                                    <div class="col d-flex align-items-center">
-                                                                        <div class="text-muted">
-                                                                            <a href="https://github.com/users/BA-CalderonMorales/projects/2">
-                                                                                Study Buddy
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col">
-                                                                        <div class="lead" id="projects-context">
-                                                                            This was another paired project that I worked
-                                                                            on where I was able to create a Flashcard app 
-                                                                            called Study Buddy. It was amazing to see how 
-                                                                            useState and useEffect work together to produce 
-                                                                            powerful, yet simple web applications. In creating
-                                                                            this project, we used React.js (hooks approach frontend), 
-                                                                            Django REST Framework (for backend), and a ton of
-                                                                            elbow grease!
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                            </div>
+                        <section id="projects-section"> <!-- Projects section start --> 
+                            <div class="row" id="projects-title">
+                                <div class="col d-flex justify-content-center align-items-center">    
+                                    <div class="display-3 p-4">Projects</div>
+                                </div> 
+                            </div>
+                            <div class="row" id="projects">
+                                <div class="carousel slide col-xs-12 col-sm-12 col-md-8 col-lg-8 order-2 display-4 p-4" id="carouselExampleControls" data-bs-ride="carousel">
+                                    <div class="carousel-inner" id="carousel-items-spacing">
+                                        <div class="carousel-item active" id="carousel-item-space">
+                                            <h5 class="card-title">Music Library</h5>
+                                            <p class="card-text text-center">
+                                                <i class="fas fa-music fa-2x"></i>
+                                            </p>
+                                            <p class="card-text text-center">
+                                            Uses React.js for frontend and Django REST Framework for backend. 
+                                            In this project, I learned how to create a CRUD app that can allow 
+                                            a user to create, read, update, and delete songs from a MySQL database.
+                                            </p>
                                         </div>
-                                        <div class="col d-flex justify-content-center align-items-center" id="right-box">    
-                                            <h2>Projects</h2>
+                                        <div class="carousel-item" id="carousel-item-space">
+                                            <h5 class="card-title">YouTube Clone</h5>
+                                            <p class="card-text text-center">
+                                                <i class="fas fa-clone fa-2x"></i>
+                                            </p>
+                                            <p class="card-text text-center">
+                                                In this project, I had to create a clone of YouTube. It was a bit 
+                                                difficult having to work with limited API calls (YouTube V3), but 
+                                                we (my partner and me that worked on this) made it through. 
+                                            </p>
+                                        </div>
+                                        <div class="carousel-item" id="carousel-item-space">
+                                            <h5 class="card-title">RPSLS</h5>
+                                            <p class="card-text text-center">
+                                                <i class="fas fa-hand-scissors fa-2x"></i>
+                                            </p>
+                                            <p class="card-text text-center">
+                                                In this project, I was able to create a console app game inside of 
+                                                PyCharm. The game is based off of a show called The Big Bang Theory. 
+                                                Here's a link to the episode this aired on, too: <a href="https://www.youtube.com/watch?v=x5Q6-wMx-K8&feature=youtu.be">RPSLS</a>
+                                            </p>
+                                        </div>
+                                        <div class="carousel-item" id="carousel-item-space">
+                                            <h5 class="card-title">Study Buddy</h5>
+                                            <p class="card-text text-center">
+                                                <i class="fas fa-school fa-2x"></i>
+                                            </p>
+                                            <p class="card-text text-center">
+                                                This was another paired project that I worked on where I was able to 
+                                                create a Flashcard app called Study Buddy. It was amazing to see how 
+                                                useState and useEffect work together to produce powerful web applications.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                                <div class="d-none d-xs-block d-sm-block col-md-2 col-lg-2 order-1 d-flex justify-content-center align-items-center p-4" id="previous-btn">
+                                    <button class="carousel-control-prev btn-dark btn-floating" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon d-flex justify-content-center align-items-center" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                </div>
+                                <div class="d-none d-xs-block d-sm-block col-md-2 col-lg-2 order-3 d-flex justify-content-center align-items-center p-4">
+                                    <button class="carousel-control-next btn-dark btn-floating" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon d-flex justify-content-center align-items-center" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>  
                         </section> <!-- Projects section end -->
                         
                         <section id="separator-section"> <!-- Separator start -->
@@ -306,7 +257,7 @@
                         </section> <!-- Footer section end -->
                     </div>     
                 </div>
-                <div class="col col-md-3 col-lg-2"></div>
+                <div class="col-sm-3 col-md-2 col-lg-2"></div>
             </div>
     </div> <!-- The container-fluid class that will hold everything - End -->
 
