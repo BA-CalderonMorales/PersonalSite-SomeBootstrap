@@ -117,10 +117,6 @@ body {
     color: whitesmoke;
 }
 
-.carousel-item:active {
-    padding: 3rem;
-}
-
 #carousel-items-spacing {
     padding: 2rem;
 }
